@@ -18,10 +18,14 @@ MMNet: Multi-Stage and Multi-Scale Fusion Network for RGB-D Salient Object Detec
 ## Citation
 Please cite our paper if you use this repository in your reseach.
 ```
-  @inproceedings{MMNet20,   
-  author = {Liao, Guibiao and Gao, Wei and Jiang, Qiuping and Wang, Ronggang and Li, Ge},  
-  title = {MMNet: Multi-Stage and Multi-Scale Fusion Network for RGB-D Salient Object Detection},  
-  booktitle = {Proceedings of the 28th ACM International Conference on Multimedia},   
-  pages = {2436–2444},   
-  year = {2020}}  
+@inproceedings{MMNet20,   
+author = {Liao, Guibiao and Gao, Wei and Jiang, Qiuping and Wang, Ronggang and Li, Ge},  
+title = {MMNet: Multi-Stage and Multi-Scale Fusion Network for RGB-D Salient Object Detection},  
+booktitle = {Proceedings of the 28th ACM International Conference on Multimedia},   
+pages = {2436–2444},   
+year = {2020}
+}  
+```
+
+## Acknowledgement
 
