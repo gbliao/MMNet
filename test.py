@@ -80,8 +80,3 @@ if __name__ == '__main__':
 
         print('The ' + dataset + ' testing process has finished!')
     print('The all testing process has finished!')
-    
-
-
-
-
