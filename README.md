@@ -9,6 +9,7 @@ MMNet: Multi-Stage and Multi-Scale Fusion Network for RGB-D Salient Object Detec
 
 ## Testing
 •	Download pretrained model from [here](https://pan.baidu.com/s/1sGj6HacGepzWX9-8q8NThQ) [code: ofcn]   
+•	Download test datasets from [here](https://pan.baidu.com/s/1hOWEFfcIXGwYHDCzASgkhg ) [code: sva4]  
 •	Modify your `test_dataroot` and `test_datasets` in test.py   
 •	python test.py   
 
