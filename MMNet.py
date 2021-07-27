@@ -312,15 +312,13 @@ class FusionNet(nn.Module):
         output3 = self.self_match3(output2,skip_out=gfmout_3,side_out=grmout_3)
         output4 = self.self_match4(output3,skip_out=gfmout_4,side_out=grmout_4)
         output5 = self.self_match5(output4,skip_out=gfmout_5,side_out=grmout_5)
-
         output = torch.cat((
             F.interpolate(output2, scale_factor=4, mode='bilinear', align_corners=False),
             F.interpolate(output3, scale_factor=8, mode='bilinear', align_corners=False),
             F.interpolate(output4, scale_factor=16, mode='bilinear', align_corners=False),
             F.interpolate(output5, scale_factor=32, mode='bilinear', align_corners=False),
         ), 1)
-
         output = self.conv_pred1(output)
         output = self.conv_pred2(output)
-
         return output
+   
