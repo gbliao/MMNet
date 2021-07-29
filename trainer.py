@@ -86,7 +86,7 @@ class Trainer(object):
                     torch.save(self.model_depth.state_dict(), savename_depth)
                     print('save: (Depth: %d)' % (iteration+1))
                     savename_fusion = ('%s/fusion_%d.pth' % (self.outpath, iteration+1))
-                    torch.save(self.model_clstm.state_dict(), savename_fusion)
+                    torch.save(self.model_fusion.state_dict(), savename_fusion)
                     print('save: (fusion: %d)' % (iteration+1))
             else:
                 if iteration % 10000 == (10000 - 1):
@@ -97,7 +97,7 @@ class Trainer(object):
                     torch.save(self.model_depth.state_dict(), savename_depth)
                     print('save: (Depth: %d)' % (iteration + 1))
                     savename_fusion = ('%s/fusion_%d.pth' % (self.outpath, iteration + 1))
-                    torch.save(self.model_clstm.state_dict(), savename_fusion)
+                    torch.save(self.model_fusion.state_dict(), savename_fusion)
                     print('save: (fusion: %d)' % (iteration + 1))
 
                 if (iteration+1) == self.max_iter:
@@ -108,7 +108,7 @@ class Trainer(object):
                     torch.save(self.model_depth.state_dict(), savename_depth)
                     print('save: (Depth: %d)' % (iteration+1))
                     savename_fusion = ('%s/fusion_%d.pth' % (self.outpath, iteration+1))
-                    torch.save(self.model_clstm.state_dict(), savename_fusion)
+                    torch.save(self.model_fusion.state_dict(), savename_fusion)
                     print('save: (fusion: %d)' % (iteration+1))
 
             loss_all.backward()
