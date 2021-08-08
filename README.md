@@ -25,8 +25,8 @@ MMNet: Multi-Stage and Multi-Scale Fusion Network for RGB-D Salient Object Detec
 
 ## Results
 •	Saliency maps mentioned in the paper can be download from [here](https://pan.baidu.com/s/1S2ZT1AGqW0CfwaGFmubbbQ) [code: wl4s]  
-[1] The test_Results are obtained by trained on NJUD & NLPR & DUT (1485+700+800). 
-[2] The test_results_COME_train are obtained by trained on the new COME-Train dataset (8025).
+[1] The test_Results are obtained by trained on NJUD & NLPR & DUT (1485+700+800).     
+[2] The test_results_COME_train are obtained by trained on the new COME-Train dataset (8025).    
 •	The saliency results can be evaluated by using the tool in [Matlab](http://dpfan.net/d3netbenchmark/)   
 
 
