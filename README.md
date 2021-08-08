@@ -3,7 +3,7 @@ MMNet: Multi-Stage and Multi-Scale Fusion Network for RGB-D Salient Object Detec
 
 ## Update 
 
-Add performance of our MMNet trained on the new [COME-Train dataset] (https://github.com/JingZhang617/cascaded_rgbd_sod) (8025 images):   
+Add performance of our MMNet trained on the new [COME-Train dataset](https://github.com/JingZhang617/cascaded_rgbd_sod) (8025 images):   
 
 https://pan.baidu.com/s/1S2ZT1AGqW0CfwaGFmubbbQ [code: wl4s]     
 
