@@ -1,6 +1,12 @@
 # MMNet-PyTorch (ACM MM, 2020)
 MMNet: Multi-Stage and Multi-Scale Fusion Network for RGB-D Salient Object Detection. [PDF](https://dl.acm.org/doi/10.1145/3394171.3413523)  
 
+## Update 
+
+Add performance of our MMNet trained on the new COME-Train dataset (https://github.com/JingZhang617/cascaded_rgbd_sod) (8025 images):   
+
+(https://pan.baidu.com/s/1S2ZT1AGqW0CfwaGFmubbbQ) [code: wl4s]     
+
 
 ## Requirements
 •	pytorch 1.3.0+   
